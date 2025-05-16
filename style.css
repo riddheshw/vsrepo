@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+  /* Set a gradient background from blue to green */
+  background: linear-gradient(to right, #1e3c72, #2a5298, #38ef7d);
+  
+  /* Use a clean sans-serif font */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Set text color to white */
+  color: white;
+
+  /* Remove default margins and padding */
+  margin: 0;
+  padding: 0;
+
+  /* Enable Flexbox layout */
+  display: flex;
+
+  /* Center content horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+
+  /* Make body fill the entire viewport height */
+  height: 100vh;
+}
+
+/* Style for heading */
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
